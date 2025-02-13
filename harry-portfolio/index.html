@@ -16,7 +16,7 @@
 <body>
     
     <!-- Navbar -->
-    <nav class="navbar navbar-dark bg-opacity-75 bg-black navbar-expand-lg p-2 sticky-top black-shadow">
+    <nav class="navbar navbar-dark bg-opacity-75 bg-black navbar-expand-lg p-2 black-shadow sticky-top">
         <div class="container">
           <a class="navbar-brand brand-hover" href="#">HarryWright<span class="lilac-txt txt-2 w-500">.</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,49 +33,109 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
 
-      <!-- creating a hero section will have a picute on the left and some text on the right -->
-      <div class="hero-section">
-        <div class="container-fluid position-absolute vh-100">
-          <div class="row h-50">
-            <!-- left -->
-            <div class="col-12 col-md-6 text-center bg-body-tertiary rounded black-shadow">
-              <img src="images\Harry-1.jpg" class="rounded-circle circle-shadow mb-3 mt-5" height="250em" alt="harry thuggin">
-              <h2>Hi i'm Harry!</h2>
-              <p>I am a junior developer<p>
-              <p>And this is my portfolio site</p>
-            </div>
-            <!-- right -->
-            <div class="col-12 col-md-6 dark-grey-bg rounded text-light black-shadow">
-              <h2 class="mt-5 text-center">A junior developer with a passion for learning</h2>
-              <ul class="d-flex flex-column justify-content-center mt-5">
+    <!-- Hero Section -->
+    <div class="hero-section">
+      <div class="container-fluid">
+        <div class="row bg-body-tertiary align-items-center"> <!-- Ensures at least 75vh on larger screens -->
 
-                <li><p>Attained a level 2 merit in B-tec IT</p></li>
-                <li><p>Two weeks work experience at Risual</p></li>
-                <li><p>Two years  on-going learning at stafford college</p></li>
-                <li><p>Two years work experience at Ascendancy</p></li>
-  
-              </ul>
-            </div>
+          <!-- Left -->
+          <div class="col-12 col-md-6 d-flex vh-75 flex-column justify-content-center align-items-center text-center black-shadow py-5 h-md-100">
+            <img src="images/personal/Harry-1.jpg" class="rounded-circle circle-shadow mb-3" height="250em" alt="Harry thuggin">
+            <h2>Hi, I'm Harry!</h2>
+            <p>I am a junior developer</p>
+            <p>And this is my portfolio site</p>
+          </div>
+
+          <!-- Right -->
+          <div class="col-12 col-md-6 vh-75 d-flex flex-column justify-content-center dark-grey-bg text-light black-shadow py-5 h-md-100">
+            <h2 class="text-center">A junior developer with a passion for learning</h2>
+            <ul class="mt-4">
+              <li><p>Attained a Level 2 Merit in BTEC IT</p></li>
+              <li><p>Two weeks work experience at Risual</p></li>
+              <li><p>Two years ongoing learning at Stafford College</p></li>
+              <li><p>Two years work experience at Ascendancy</p></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- My Works Section -->
+    <div class="my-works-section my-5">
+      <!-- title -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h1 class="text-center">My Work Experience<span class="lilac-txt">.</span></h1>
           </div>
         </div>
-        
-
       </div>
+      <!-- grid of work examples -->
+      <div class="container my-5">
+        <div class="row align-items-center text-center">
+          
+          <!-- left -->
+          <div class="col-md-4 gy-3">
+            <!-- linking the image -->
+            <a href="#">
+              <div class="image-container">
+                <!-- image -->
+                <img src="images/work-experience/voluntary.jpg" alt="image 3" class="rounded">
+
+                <!-- text over the image -->
+                <div class="overlay-text">
+                  <h2>Voluntary</h2>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+
+          <!-- middle -->
+          <div class="col-md-4 gy-3">
+            <!-- linking the image -->
+            <a href="#">
+              <div class="image-container">
+                <!-- image -->
+                <img src="images/work-experience/digital.jpg" alt="image 3" class="rounded">
+
+                <!-- text over the image -->
+                <div class="overlay-text">
+                  <h2>Digital</h2>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+
+          <!-- right -->
+          <div class="col-md-4 gy-3">
+            <!-- linking the image -->
+            <a href="#">
+              <div class="image-container">
+                <!-- image -->
+                <img src="images/work-experience/retail.jpg" alt="image 3" class="rounded">
+
+                <!-- text over the image -->
+                <div class="overlay-text">
+                  <h2>Retail</h2>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
