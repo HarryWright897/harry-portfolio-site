@@ -37,17 +37,20 @@
 /* text and bg colours */
 
     .lilac-txt{
-        color: plum
+        color: plum;
     }
 
     .lilac-bg{
-        color: plum
+        background-color: plum !important;
     }
 
     .dark-grey-bg{
         background-color: rgb(45, 45, 45);
     }
 
+    .lilac-underline{
+        border-bottom: 2px solid plum;
+    }
 /* navbar */
 
     /* animating underline effect for the navlinks */
@@ -105,4 +108,5 @@
         bottom: 50%;
         right: 0;
         color: white;
+        pointer-events: none;
     }
