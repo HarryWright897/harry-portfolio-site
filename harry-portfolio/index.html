@@ -16,7 +16,7 @@
 <body>
     
     <!-- Navbar -->
-    <nav class="navbar navbar-dark bg-opacity-75 bg-black navbar-expand-lg p-2 black-shadow sticky-top">
+    <nav class="navbar navbar-dark bg-opacity-75 bg-black navbar-expand-lg p-2 black-shadow sticky-top" style="backdrop-filter: blur(20px);">
         <div class="container">
           <a class="navbar-brand brand-hover" href="index.html">HarryWright<span class="lilac-txt txt-2 w-500">.</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,11 +43,17 @@
 
     <!-- Hero Section -->
     <div class="hero-section">
-      <div class="container-fluid">
-        <div class="row bg-body-tertiary align-items-center black-shadow"> <!-- Ensures at least 75vh on larger screens -->
+      <div class="container-fluid position-relative">
+        <!-- wave section -->
+        <div class="custom-shape-divider-bottom-1741264193">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          </svg>
+        </div>
+        <div class="row bg-body-tertiary align-items-center"> <!-- Ensures at least 75vh on larger screens -->
 
           <!-- Left -->
-          <div class="col-12 col-md-6 d-flex vh-75 flex-column justify-content-center align-items-center text-center py-5 h-md-100">
+          <div class="col-12 col-md-6 d-flex vh-75 flex-column justify-content-center align-items-center dark-grey-bg text-center py-5 h-md-100 text-light">
             <img src="images/personal/Harry-1.jpg" class="rounded-circle circle-shadow mb-3" height="250em" alt="Harry thuggin">
             <h2>Hi, I'm Harry!</h2>
             <p>I am a junior developer</p>
@@ -57,7 +63,7 @@
           <!-- Right -->
           <div class="col-12 col-md-6 vh-75 d-flex flex-column justify-content-center dark-grey-bg text-light py-5 h-md-100">
             <h2 class="text-center">A junior developer with a passion for learning</h2>
-            <ul class="mt-4">
+            <ul class="mt-4 ml-9">
               <li><p>Attained a Level 2 Merit in BTEC IT</p></li>
               <li><p>Two weeks work experience at Risual</p></li>
               <li><p>Two years ongoing learning at Stafford College</p></li>
@@ -68,7 +74,7 @@
         </div>
       </div>
     </div>
-
+     
     <!-- My Works Section -->
     <div class="my-works-section my-5 p-5">
       <!-- title -->
@@ -135,6 +141,10 @@
 
         </div>
       </div>
+
+      <div class="row text-center">
+        <a href="experience.html"><button class="btn btn-outline-dark">See more</button></a>
+      </div>
     </div>
 
     <!-- About me section -->
@@ -173,7 +183,7 @@
     </div>
 
     <!-- Contact me call to action -->
-    <div class="contact-me-cta my-5 p-4">
+    <div class="contact-me-cta my-5">
       <!-- title -->
       <div class="container">
         <div class="row text-center">
@@ -181,7 +191,10 @@
             <h1>Hit me up<span class="lilac-txt">.</span></h1>
           </div>
         <div class="row">
-          <a href="contact.index"><button class="btn btn-outline-dark mt-3">Contact me</button></a>
+          <div class="p">email: harrywright897@hotmail.com<br>contact number: 07480113723</div>
+        </div>
+        <div class="row">
+          <a href="contact.html"><button class="btn btn-outline-dark mt-3">Contact me</button></a>
         </div>
         </div>
       </div>
