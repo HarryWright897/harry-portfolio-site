@@ -63,6 +63,10 @@
         min-height: 75vh;
     }
 
+    .vh-30{
+        min-height: 30vh;
+    }
+
 /* text and bg colours */
 
     .lilac-txt{
